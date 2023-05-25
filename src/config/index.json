@@ -5,31 +5,27 @@
   },
   "navigation": [
     {
-      "name": "Product",
-      "href": "product"
+      "name": "Nosotros",
+      "href": "about"
     },
     {
-      "name": "Features",
+      "name": "Servicios",
       "href": "features"
     },
 
     {
-      "name": "Pricing",
+      "name": "Precios",
       "href": "pricing"
-    },
-    {
-      "name": "About",
-      "href": "about"
     }
   ],
   "callToAction": {
-    "text": "Get started",
+    "text": "Escríbeme",
     "href": "#"
   },
   "mainHero": {
     "title": "Autopoiesis",
-    "subtitle": "Autocrearte",
-    "description": "Pensamiento natural, exploraciones del presente, por todas nuestras relaciones, sensibilización creativa y ambiental",
+    "subtitle": "Autonomía del ser",
+    "description": "Autogestión emocional a través del arte y la magia",
     "img": "/assets/images/hero.png",
     "primaryAction": {
       "text": "Contácto",
@@ -40,17 +36,19 @@
       "href": "https://api.whatsapp.com/message/ATGNNRLSWOLGG1?autoload=1&app_absent=0"
     }
   },
-  "product": {
-    "title": "Autopoiesis, una forma de conectar contigo",
+  "about": {
+    "title": "Autopoiesis, autogestión emocional",
     "items": [
       {
-        "title": "Mi nombre es Camila Cano.",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "title1": "¿Qué es autopoiesis?",
+        "description1": "La Autopoiesis es un término propuesto por el biólogo chileno Humberto Maturana para definir  la cualidad que tiene un organismo de crearse, recrearse y sostenerse así mismo constantemente. No sólo pensándolo desde la biología, sino en todos los sentidos, los seres humanos tenemos esta capacidad de autogestionar nuestras emociones y nuestra vida, de saber qué es lo que queremos y necesitamos cada momento para caminar en claridad y armonía con todo lo que existe; somos seres autopoiéticos.",
+        "title2": "¿En qué nos enfocamos autopoiesis?",
+        "description2": "El enfoque principal de Autopoiesis es lograr que cada persona recuerde que es un ser capaz de autogestionar su vida, entrando en sus aguas profundas, reconectando con sus memorias y su intuición con el fin de poner la mente al servicio de su espíritu, para que tenga la capacidad de elegir desde el corazón y logre vivir en plenitud y armonía consigo mismo y su entorno.",
         "img": "/assets/images/service1.png"
       },
       {
-        "title": "Artista, astróloga, taróloga, artesana, caminante de medicina ancestral, onironauta, buscadora de visión.",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "title1": "¿Quienes somos?",
+        "description1": "Soy Camila Cano creadora de Autopoiesis. \n\nEste espacio nace del deseo de compartir medios y herramientas que me han servido en mi camino hacia una vida en coherencia con mi espíritu originario; diferentes prácticas que me llevaron al encuentro de mi creatividad y que han nutrido no sólo mis procesos artísticos y profesionales, sino mi vida. \n\nArtísta plástica, astróloga, taróloga, arte-sana, caminante del “camino rojo tolteca” dedicada a la expansión de la consciencia, apasionada por la recuperación y la creación de rituales que nos sirvan de puente para comunicarnos con nuestro inconsciente más profundo; levantar rezos para honrar la vida y sentirnos merecedores y responsables del presentes que tenemos, aquí y ahora.",
         "img": "/assets/images/service2.png"
       }
     ]
@@ -61,23 +59,23 @@
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "items": [
       {
-        "name": "Astrología psicológica y evolutiva",
-        "description": "Aspectos más relevantes para tener en cuenta en la evolución de tu Ser. Medios y herramientas desde el arte para auto-gestionar y crear tu realidad",
+        "name": "Tarot terapeutico",
+        "description": "El tarot terapéutico es una herramienta que se utiliza para el crecimiento mental y emocional,  tiene como objetivo indagar en las energías estancadas, la raíz de las memorias que nos impiden vivir en plenitud y en coherencia con lo que somos interiormente. Este método no es adivinatorio, se utilizan preguntas que indagan el presente y el pasado del consultante para que pueda ver con claridad y elegir con plena libertad su futuro.",
         "icon": "/assets/images/react.png"
       },
       {
-        "name": "Tarot Intuitivo",
-        "description": "Arcanos Mayores y sus arquetipos. Desarrolla tu intuición y tu creatividad a través del tarot.",
+        "name": "Carta Natal - Mapa de evolución",
+        "description": "La Carta Natal es una herramienta de autoconocimiento que nos permite ver quienes somos y qué venimos hacer en esta encarnación. Este mapa se levanta teniendo en cuenta  cómo estaba el cielo en el momento exacto de tu nacimiento. Es importante comprender por qué nos pasan ciertas situaciones y qué necesito aprender de todas estas experiencias; cuáles son los patrones mentales que traemos que impiden que nuestra alma se manifieste en su estado más elevado y reconocer nuestros dones y talentos para ser quienes realmente somos.",
         "icon": "/assets/images/tailwindcss.svg"
       },
       {
-        "name": "Encuadernación Artesanal y Bitácoras para Creativos",
-        "description": "Talleres, clases y asesorías. Encuadernación artesanal y libro de artista.",
+        "name": "Carta Natal niños",
+        "description": "Este mapa natal es una guía para los padres, para ayudarles a comprender las necesidades emocionales de sus hijos y así puedan tener una mejor comunicación con ellos, mejorando su relación de manera significativa. También les ayudará a saber cuales son sus  talentos naturales para que desde temprana edad puedan potenciarlos y apoyarlos, esto les permitirá ser adultos, más felices y seguros de lo que vienen a entregar al mundo.",
         "icon": "/assets/images/nextjs.svg"
       },
       {
-        "name": "Sahumadoras",
-        "description": "Sahumadoras sencillas, animal de poder, silbadoras que alimentan el fuego.",
+        "name": "Revolución Solar",
+        "description": "Nuestro retorno del sol tiene que ver con el momento exacto en que el sol vuelve a estar en el cielo, en el mismo punto donde estaba en el momento en que nacimos, cada año el sol vuelve a esta posición; es un momento donde se renuevan nuestras energías, este mapa marca la estructura energética y las tendencias concretas que experimentarás los siguientes 12 meses, te brinda respuestas de cómo va ser la dinámica energética personal y los puntos fuertes y débiles del año, para tomar decisiones de forma más consciente.",
         "icon": "/assets/images/ts.png"
       }
     ]
@@ -121,31 +119,26 @@
       }
     ]
   },
-  "about": {
+  "footer": {
     "sections": [
       {
-        "name": "Something",
-        "href": "#",
+        "name": "Nosotros",
+        "href": "about",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
-        "href": "#",
+        "name": "Servicios",
+        "href": "features",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
+        "name": "Precios",
+        "href": "pricing",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       }
     ],
     "socialMedia": {
-      "instagram": "https://www.instagram.com/experienciasterapeuticas.art/",
+      "instagram": "https://www.instagram.com/autopoiesis.co/",
       "whatsapp": "https://api.whatsapp.com/message/ATGNNRLSWOLGG1?autoload=1&app_absent=0"
     }
   }
