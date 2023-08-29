@@ -5,7 +5,12 @@
 /.pnp
 .pnp.js
 .vscode
-public
+.husky
+# Github
+.github
+
+# Public
+public/
 
 # testing
 /coverage
@@ -35,3 +40,6 @@ local
 
 # vercel
 .vercel
+
+# babelrc
+.babelrc
