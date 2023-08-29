@@ -1,7 +1,7 @@
 import React from 'react';
 
-import config from '../config/index.json';
 import Divider from './Divider';
+import config from '../config/index.json';
 
 const About = () => {
   const { about } = config;
@@ -18,7 +18,7 @@ const About = () => {
               key={index}
               className={index % 2 ? 'text-primary' : 'text-border'}
             >
-              {word}{' '}
+              {word}
             </span>
           ))}
         </h1>
@@ -26,17 +26,17 @@ const About = () => {
         <div className={`flex flex-wrap`}>
           <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
             <h3
-              className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
+              className={`text-3xl text-gray-200 font-bold leading-none mb-3`}
             >
               {firstItem?.title1}
             </h3>
-            <p className={`text-gray-600`}>{firstItem?.description1}</p>
+            <p className={`text-gray-400`}>{firstItem?.description1}</p>
             <h3
-              className={`text-3xl text-gray-800 font-bold leading-none mb-3 mt-10`}
+              className={`text-3xl text-gray-200 font-bold leading-none mb-3 mt-10`}
             >
               {firstItem?.title2}
             </h3>
-            <p className={`text-gray-600`}>{firstItem?.description2}</p>
+            <p className={`text-gray-400`}>{firstItem?.description2}</p>
           </div>
 
           <div className={`w-full sm:w-1/2 p-6 flex justify-center`}>
@@ -58,19 +58,19 @@ const About = () => {
           <div className={`w-full sm:w-1/2 p-6 mt-20`}>
             <div className={`align-middle`}>
               <h3
-                className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
+                className={`text-3xl text-gray-200 font-bold leading-none mb-3`}
               >
                 {secondItem?.title1}
               </h3>
-              <p className={`text-gray-600 mb-8 whitespace-pre-wrap`}>
+              <p className={`text-gray-400 mb-8 whitespace-pre-wrap`}>
                 {secondItem?.description1}
               </p>
               <h3
-                className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
+                className={`text-3xl text-gray-200 font-bold leading-none mb-3`}
               >
                 {secondItem?.title2}
               </h3>
-              <p className={`text-gray-600 mb-8 whitespace-pre-wrap`}>
+              <p className={`text-gray-400 mb-8 whitespace-pre-wrap`}>
                 {secondItem?.description2}
               </p>
             </div>

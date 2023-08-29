@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center gap-x-8 mt-6 h-8">
           <a
-            aria-label="github"
+            aria-label="instagram"
             href={socialMedia.instagram}
             target="_blank"
             rel="noreferrer"
@@ -47,7 +47,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            aria-label="twitter"
+            aria-label="whatsapp"
             href={socialMedia.whatsapp}
             target="_blank"
             rel="noreferrer"

@@ -53,13 +53,15 @@ const Menu = () => {
                   duration={1000}
                   key={item.name}
                   to={item.href}
-                  className="font-medium text-gray-500 hover:text-gray-900"
+                  className="font-medium text-gray-500 hover:text-gray-200"
                 >
                   {item.name}
                 </Link>
               ))}
               <a
                 href={callToAction.href}
+                rel="noreferrer"
+                target="_blank"
                 className={`font-medium text-primary hover:text-secondary`}
               >
                 {callToAction.text}
