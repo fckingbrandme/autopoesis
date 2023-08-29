@@ -33,7 +33,7 @@ const Features = () => {
                     <img
                       className={`inline-block h-6 w-6 rounded-full`}
                       src={feature.icon}
-                      alt={feature.name}
+                      alt={feature.tag}
                     />
                   </div>
                   <p className="ml-16 text-lg leading-6 font-medium text-gray-300">

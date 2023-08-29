@@ -20,7 +20,7 @@
   ],
   "callToAction": {
     "text": "Escríbeme",
-    "href": "#"
+    "href": "https://api.whatsapp.com/send/?phone=573192339290&text=Hola! quisiera saber más sobre tus servicios!"
   },
   "mainHero": {
     "title": "Autopoiesis",
@@ -28,12 +28,12 @@
     "description": "Autogestión emocional a través del arte y la magia",
     "img": "./assets/images/hero.png",
     "primaryAction": {
-      "text": "Contácto",
-      "href": "#"
+      "text": "Servicios",
+      "href": "features"
     },
     "secondaryAction": {
       "text": "Hablemos",
-      "href": "https://api.whatsapp.com/message/ATGNNRLSWOLGG1?autoload=1&app_absent=0"
+      "href": "https://api.whatsapp.com/send/?phone=573192339290&text=Hola! quisiera saber más sobre tus servicios!"
     }
   },
   "about": {
@@ -55,28 +55,32 @@
   },
   "features": {
     "title": "Servicios",
-    "subtitle": "Neque porro quisquam est qui.",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "subtitle": "Algunos de nuestros serivicios",
+    "description": "La vida se puede sobrellevar más fácil con herramientas que nos ayuden a comprendernos mejor a nosotros mismos y a los otros, entendiendo que todo es parte de un proceso y que la integración de los aprendizajes que vivimos nos ayudan a transformar nuestra vida y conectar con la guía a nuestro propósito mayor.",
     "items": [
       {
         "name": "Tarot terapeutico",
         "description": "El tarot terapéutico es una herramienta que se utiliza para el crecimiento mental y emocional,  tiene como objetivo indagar en las energías estancadas, la raíz de las memorias que nos impiden vivir en plenitud y en coherencia con lo que somos interiormente. Este método no es adivinatorio, se utilizan preguntas que indagan el presente y el pasado del consultante para que pueda ver con claridad y elegir con plena libertad su futuro.",
-        "icon": "./assets/images/react.png"
+        "icon": "./assets/images/tarot.png",
+        "tag": "https://www.freepik.com/icon/tarot_1408429#fromView=search&term=tarot&page=1&position=41"
       },
       {
         "name": "Carta Natal - Mapa de evolución",
         "description": "La Carta Natal es una herramienta de autoconocimiento que nos permite ver quienes somos y qué venimos hacer en esta encarnación. Este mapa se levanta teniendo en cuenta  cómo estaba el cielo en el momento exacto de tu nacimiento. Es importante comprender por qué nos pasan ciertas situaciones y qué necesito aprender de todas estas experiencias; cuáles son los patrones mentales que traemos que impiden que nuestra alma se manifieste en su estado más elevado y reconocer nuestros dones y talentos para ser quienes realmente somos.",
-        "icon": "./assets/images/tailwindcss.svg"
+        "icon": "./assets/images/adult.png",
+        "tag": "https://www.freepik.com/icon/couple_2179284#fromView=search&term=adult&page=2&position=5"
       },
       {
         "name": "Carta Natal niños",
         "description": "Este mapa natal es una guía para los padres, para ayudarles a comprender las necesidades emocionales de sus hijos y así puedan tener una mejor comunicación con ellos, mejorando su relación de manera significativa. También les ayudará a saber cuales son sus  talentos naturales para que desde temprana edad puedan potenciarlos y apoyarlos, esto les permitirá ser adultos, más felices y seguros de lo que vienen a entregar al mundo.",
-        "icon": "./assets/images/nextjs.svg"
+        "icon": "./assets/images/kid.png",
+        "tag": "https://www.freepik.com/icon/playtime_1702292#fromView=search&term=kid&page=1&position=6"
       },
       {
         "name": "Revolución Solar",
         "description": "Nuestro retorno del sol tiene que ver con el momento exacto en que el sol vuelve a estar en el cielo, en el mismo punto donde estaba en el momento en que nacimos, cada año el sol vuelve a esta posición; es un momento donde se renuevan nuestras energías, este mapa marca la estructura energética y las tendencias concretas que experimentarás los siguientes 12 meses, te brinda respuestas de cómo va ser la dinámica energética personal y los puntos fuertes y débiles del año, para tomar decisiones de forma más consciente.",
-        "icon": "./assets/images/ts.png"
+        "icon": "./assets/images/sun.png",
+        "tag": "https://www.freepik.com/icon/sun_4000847#fromView=search&term=sun&page=1&position=46"
       }
     ]
   },
@@ -84,37 +88,41 @@
     "title": "Precios",
     "items": [
       {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
+        "name": "Carta Natal",
+        "price": "$355.000",
+        "priceDetails": "por persona",
         "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
+          "Archivo del estudio",
+          "Los mapas de tu carta que los comprenderás bien con el texto",
+          "Consulta virtual o presencial con duración de 30 a 40 min",
+          "Una pregunta en las que te quieras enfocar"
         ]
       },
       {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
+        "name": "Revolución Solar",
+        "price": "$355.000",
+        "priceDetails": "por persona",
 
         "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
+          "¿Qué aprendizajes trae este nuevo año para ti?",
+          "Te brinda respuestas de cómo va ser la dinámica energética personal y los puntos fuertes y débiles del año",
+          "Consulta virtual o presencial con duración de 30 a 40 min",
+          "Muestra la estructura energética que experimentarás los siguientes 12 meses",
+          "Muestra las tendencias concretas que experimentarás los siguientes 12 meses"
         ]
       },
       {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
+        "name": "Tarot terapéutico e intuitivo",
+        "price": "$560.000",
+        "priceDetails": "por persona",
         "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
+          "Ejercicios de integración",
+          "Ejercicios creativos",
+          "Arquetipos guías personales",
+          "Consagración de la baraja",
+          "Mapas de lectura",
+          "Asesorias de seguimiento del proceso",
+          "Material de apoyo: documentos y referencias."
         ]
       }
     ]
@@ -139,7 +147,7 @@
     ],
     "socialMedia": {
       "instagram": "https://www.instagram.com/autopoiesis.co/",
-      "whatsapp": "https://api.whatsapp.com/message/ATGNNRLSWOLGG1?autoload=1&app_absent=0"
+      "whatsapp": "https://api.whatsapp.com/send/?phone=573192339290&text=Hola! quisiera saber más sobre tus servicios!"
     }
   }
 }
