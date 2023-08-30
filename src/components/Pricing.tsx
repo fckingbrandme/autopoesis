@@ -9,7 +9,7 @@ const Pricing = () => {
 
   return (
     <section className={`bg-background py-8`} id="pricing">
-      <div className={`container mx-auto px-2 pt-4 pb-12 text-primary`}>
+      <div className={`container mx-auto px-2 pt-4 text-primary`}>
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
         >
@@ -25,7 +25,7 @@ const Pricing = () => {
         >
           {/*          first plan */}
           <div
-            className={`group flex flex-col w-5/6 lg:w-1/4 hover:w-1/3 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-background mt-4 sm:-mt-6`}
+            className={`group flex flex-col w-5/6 sm:w-5/6 lg:w-1/4 lg:hover:w-1/2 mx-auto sm:mx-0 lg:mx-0 rounded-none lg:rounded-l-lg bg-background mt-4 sm:-mt-6`}
           >
             <a
               href="https://api.whatsapp.com/send/?phone=573192339290&text=Hola! quisiera consultar mi carta natal!"
@@ -67,7 +67,7 @@ const Pricing = () => {
           </div>
           {/*          second plan */}
           <div
-            className={`group flex flex-col w-5/6 lg:w-1/4 hover:w-1/3 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-background mt-4 sm:-mt-6`}
+            className={`group flex flex-col w-5/6 sm:w-5/6 lg:w-1/4 lg:hover:w-1/2 mx-auto sm:mx-0 lg:mx-0 rounded-none lg:rounded-l-lg bg-background mt-4 sm:-mt-6`}
           >
             <a
               href="https://api.whatsapp.com/send/?phone=573192339290&text=Hola! quisiera consultar mi carta de revolución solar!"
@@ -111,7 +111,7 @@ const Pricing = () => {
           </div>
           {/*          third plan */}
           <div
-            className={`group flex flex-col w-5/6 lg:w-1/4 hover:w-1/3 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-background mt-4 sm:-mt-6`}
+            className={`group flex flex-col w-5/6 sm:w-5/6 lg:w-1/4 lg:hover:w-1/2 mx-auto sm:mx-0 lg:mx-0 rounded-none lg:rounded-l-lg bg-background mt-4 sm:-mt-6`}
           >
             <a
               href="https://api.whatsapp.com/send/?phone=573192339290&text=Hola! quisiera participar en el taller de tarot terapéutico e intuitivo!"

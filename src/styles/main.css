@@ -2,22 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --color-primary: #eea421;
   --color-secondary: #fecb0a;
   --color-tertiaty: #99a0a3;
 }
 
-a { 
+body {
+  background: #050917;
+}
+
+a {
   color: #fecb0a;
 }
 
 a:hover {
   @apply border-b-2;
   --tw-border-opacity: 1;
-  border-color: rgba(254,203,10, var(--tw-border-opacity));
-
+  border-color: rgba(254, 203, 10, var(--tw-border-opacity));
 }
 
 .content p {
