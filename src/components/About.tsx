@@ -16,7 +16,7 @@ const About = () => {
           {about.title.split(' ').map((word, index) => (
             <span
               key={index}
-              className={index % 2 ? 'text-primary' : 'text-border'}
+              className={index % 2 ? 'text-gray-400' : 'text-primary'}
             >
               {word}{' '}
             </span>
