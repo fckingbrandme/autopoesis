@@ -9,6 +9,9 @@
 # Github
 .github
 
+# Public
+public/
+
 # testing
 /coverage
 
