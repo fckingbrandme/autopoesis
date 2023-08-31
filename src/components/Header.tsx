@@ -23,17 +23,17 @@ const Menu = () => {
       </svg>
 
       <Popover>
-        <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+        <div className="sticky py-10 sm:py-10 md:py-10 lg:py-0">
           <nav
-            className="relative flex items-center justify-between sm:h-10 lg:justify-start"
+            className="fixed lg:relative flex items-center justify-between  py-6 px-4 sm:px-6 lg:px-8 top-0 lg:justify-start w-full bg-background lg:bg-transparent"
             aria-label="Global"
           >
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-              <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
+              <div className="flex items-center justify-between w-full">
+                <Link to="/">
                   <span className="sr-only">{companyName}</span>
                   <img alt="logo" className="h-16 w-auto sm:h-16" src={logo} />
-                </a>
+                </Link>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button
                     className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
@@ -44,7 +44,7 @@ const Menu = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+            <div className="hidden md:block md:ml-10 md:pr-14 md:space-x-8">
               {navigation.map((item) => (
                 <Link
                   spy={true}
@@ -87,9 +87,9 @@ const Menu = () => {
               className={`rounded-lg shadow-md bg-background ring-1 ring-black ring-opacity-5 overflow-hidden`}
             >
               <div className="px-5 pt-4 flex items-center justify-between">
-                <div>
+                <Link to="/">
                   <img className="h-8 w-auto" src={logo} alt="" />
-                </div>
+                </Link>
                 <div className="-mr-2">
                   <Popover.Button
                     className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
