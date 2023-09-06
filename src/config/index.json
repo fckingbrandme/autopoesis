@@ -26,7 +26,7 @@
     "title": "Autopoiesis",
     "subtitle": "Autonomía del ser",
     "description": "Autogestión emocional a través del arte y la magia",
-    "img": "./assets/images/hero.png",
+    "img": "./assets/images/hero.jpg",
     "primaryAction": {
       "text": "Servicios",
       "href": "features"
@@ -42,20 +42,20 @@
       {
         "title1": "¿Qué es autopoiesis?",
         "description1": "La Autopoiesis es un término propuesto por el biólogo chileno Humberto Maturana para definir  la cualidad que tiene un organismo de crearse, recrearse y sostenerse así mismo constantemente. No sólo pensándolo desde la biología, sino en todos los sentidos, los seres humanos tenemos esta capacidad de autogestionar nuestras emociones y nuestra vida, de saber qué es lo que queremos y necesitamos cada momento para caminar en claridad y armonía con todo lo que existe; somos seres autopoiéticos.",
-        "title2": "¿En qué nos enfocamos autopoiesis?",
+        "title2": "¿En qué nos enfocamos?",
         "description2": "El enfoque principal de Autopoiesis es lograr que cada persona recuerde que es un ser capaz de autogestionar su vida, entrando en sus aguas profundas, reconectando con sus memorias y su intuición con el fin de poner la mente al servicio de su espíritu, para que tenga la capacidad de elegir desde el corazón y logre vivir en plenitud y armonía consigo mismo y su entorno.",
         "img": "./assets/images/service1.png"
       },
       {
         "title1": "¿Quienes somos?",
-        "description1": "Soy Camila Cano creadora de Autopoiesis. \n\nEste espacio nace del deseo de compartir medios y herramientas que me han servido en mi camino hacia una vida en coherencia con mi espíritu originario; diferentes prácticas que me llevaron al encuentro de mi creatividad y que han nutrido no sólo mis procesos artísticos y profesionales, sino mi vida. \n\nArtísta plástica, astróloga, taróloga, arte-sana, caminante del “camino rojo tolteca” dedicada a la expansión de la consciencia, apasionada por la recuperación y la creación de rituales que nos sirvan de puente para comunicarnos con nuestro inconsciente más profundo; levantar rezos para honrar la vida y sentirnos merecedores y responsables del presentes que tenemos, aquí y ahora.",
+        "description1": "Soy Camila Cano creadora de Autopoiesis. \n\nEste espacio nace del deseo de compartir medios y herramientas que me han servido en mi camino hacia una vida en coherencia con mi espíritu originario; diferentes prácticas que me llevaron al encuentro de mi creatividad y que han nutrido no sólo mis procesos artísticos y profesionales, sino mi vida. \n\nArtísta plástica, astróloga, taróloga, arte-sana, caminante del “camino rojo tolteca” dedicada a la expansión de la consciencia, apasionada por la recuperación y la creación de rituales que nos sirvan de puente para comunicarnos con nuestro inconsciente más profundo; levantar rezos para honrar la vida y sentirnos merecedores y responsables del presente que tenemos, aquí y ahora.",
         "img": "./assets/images/service2.png"
       }
     ]
   },
   "features": {
     "title": "Servicios",
-    "subtitle": "Algunos de nuestros serivicios",
+    "subtitle": "Nuestros serivicios",
     "description": "La vida se puede sobrellevar más fácil con herramientas que nos ayuden a comprendernos mejor a nosotros mismos y a los otros, entendiendo que todo es parte de un proceso y que la integración de los aprendizajes que vivimos nos ayudan a transformar nuestra vida y conectar con la guía a nuestro propósito mayor.",
     "items": [
       {
@@ -72,7 +72,7 @@
       },
       {
         "name": "Carta Natal niños",
-        "description": "Este mapa natal es una guía para los padres, para ayudarles a comprender las necesidades emocionales de sus hijos y así puedan tener una mejor comunicación con ellos, mejorando su relación de manera significativa. También les ayudará a saber cuales son sus  talentos naturales para que desde temprana edad puedan potenciarlos y apoyarlos, esto les permitirá ser adultos, más felices y seguros de lo que vienen a entregar al mundo.",
+        "description": "Este mapa natal es una guía para los padres, para ayudarles a comprender las necesidades emocionales de sus hijos y así puedan tener una mejor comunicación con ellos, mejorando su relación de manera significativa. También les ayudará a saber cuales son sus  talentos naturales para que desde temprana edad puedan potenciarlos y apoyarlos, esto les permitirá ser adultos más felices y seguros de lo que vienen a entregar al mundo.",
         "icon": "./assets/images/icon2.png",
         "tag": "https://www.freepik.com/icon/playtime_1702292#fromView=search&term=kid&page=1&position=6"
       },
@@ -112,17 +112,18 @@
         ]
       },
       {
-        "name": "Tarot terapéutico e intuitivo",
+        "name": "Tarot terapéutico e intuitivo - Taller",
         "price": "$560.000",
         "priceDetails": "por persona",
         "features": [
+          "28 clases virtuales con una excepcional astróloga",
           "Ejercicios de integración",
           "Ejercicios creativos",
           "Arquetipos guías personales",
           "Consagración de la baraja",
           "Mapas de lectura",
           "Asesorias de seguimiento del proceso",
-          "Material de apoyo: documentos y referencias."
+          "Material de apoyo: documentos y referencias"
         ]
       }
     ]

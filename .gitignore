@@ -10,7 +10,7 @@
 .github
 
 # Public
-public/
+# public/
 
 # testing
 /coverage
