@@ -10,9 +10,9 @@ const MyApp = ({ Component, pageProps }: AppProps) => (
         Autopoiesis || Autogestión emocional a través del arte y la magia
       </title>
 
-      <link rel="icon" href="/favicon.ico" />
-      <link rel="shortcut icon" href="/favicon.ico" />
-      <link rel="apple-touch-icon" href="/favicon.ico" />
+      <link rel="icon" href="./favicon.ico" />
+      <link rel="shortcut icon" href="./favicon.ico" />
+      <link rel="apple-touch-icon" href="./favicon.ico" />
 
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -34,7 +34,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => (
         content="Autopoiesis || Autonomía del ser"
         key="ogtitle"
       />
-      <meta property="og:image" content="/img/favicon-32x32.png" />
+      <meta property="og:image" content="./favicon-32x32.png" />
       <meta
         property="og:description"
         content="Autopoiesis se enfoca en lograr que cada persona recuerde que es un ser capaz de autogestionar su vida, entrando en sus aguas profundas, reconectando con sus memorias y su intuición con el fin de poner la mente al servicio de su espíritu, para que tenga la capacidad de elegir desde el corazón y logre vivir en plenitud y armonía consigo mismo y su entorno."
