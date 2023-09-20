@@ -1,7 +1,10 @@
 import { AppProps } from 'next/app';
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
 
 import '../styles/main.css';
+
+const Analitycs = dynamic(() => import('../components/Analytics'));
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
   <>
@@ -47,6 +50,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => (
     </Head>
 
     <Component {...pageProps} />
+    <Analitycs />
   </>
 );
 
